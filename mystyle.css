@@ -8,7 +8,7 @@
  
 body {
   background: #fff;
-  color: #222;
+  color:black;
 }
  
 
@@ -16,7 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 60px;
+  padding: 0px 0px;
 }
  
 .logo {
@@ -25,9 +25,9 @@ header {
 }
  
 nav a {
-  margin: 0 15px;
+  margin:  015px;
   text-decoration: none;
-  color: #333;
+  color: black;
   font-weight: 500;
 }
  
@@ -92,8 +92,11 @@ nav a.active {
   object-fit: cover;
 }
   aside{
-    margin-bottom: 50px;
+    margin-left: 1000px;
     float: right;
   } 
+.logo {
+    margin-left: 60px;
+}
   
 
